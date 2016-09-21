@@ -1,0 +1,174 @@
+body{
+margin: 0;
+}
+.container{
+margin: 0 auto;
+width: 960px;
+padding: 0 10px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.page-header{
+background-color: #ffcd34;
+-webkit-background-size: ;
+background-size:35px 20px;
+padding-top:19px;
+padding-bottom: 19px;
+}
+
+.stripe:after{
+content: "";
+display: block;
+height: 20px;
+width: 100%;
+background-image: linear-gradient(135deg, #fabe1f 35%, black 35%, black 65%, #fabe1f 65%);
+background-size: 35px 20px;
+position: relative;
+top: 20px;
+}
+
+.logo{
+float: left;
+font-size: 0;
+
+}
+
+.logo-text{
+font-size: 24px;
+padding: 0 0 0 15px;
+color: #000000;
+}
+
+.logo-text,.logo-img{
+display: inline-block;
+vertical-align:middle;
+
+}
+
+
+.main-nav{
+float: right;
+width: 650px;
+font-size: 0;
+text-align: right;
+
+
+}
+
+.main-nav li {
+display: inline-block;
+vertical-align: middle;
+font-size: 16px;
+padding: 0 0 0 20px;
+
+
+}
+.main-nav a{
+padding: 10px;
+display: block;
+color: #000000;
+text-decoration: none;
+
+}
+
+
+.btn-order-header{
+color: #ffcd34;
+border: 5px solid ffe184;
+background-color: #ffe184;
+}
+
+.portfolio{
+    font-size: 0;
+    height: 115px;
+    background-image: url(../img/form%20header.jpg);
+    
+}
+
+.portfolio-title-menu{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    width: 120px;
+    margin: 0;
+    padding-top: 40px;
+    color: #ffcd34;
+    
+}
+.portfolio-menu ul{
+    margin: 0;
+    text-align: right;
+    
+    
+}
+.portfolio-menu{
+    float: right;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 709px;
+     padding-top: 47px;
+}
+
+.portfolio-menu li{
+  display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-left: 36px;
+    
+}
+.portfolio-menu li a{
+    color: #fff;
+}
+.portfolio-item1{
+    height: 500px;
+    background-image: url(../img/hause1.jpg);
+}
+.portfolio-promo-img{
+   width: 322px;
+    height: 246px;
+    background-color: #fff;
+   margin-top: 102px;
+}
+.portfolio-house{
+    width: 268px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #202e3b;
+    margin: 0;
+    padding:29px 29px 13px 29px;
+}
+.portfolio-title{
+    margin: 0;
+    width: 247px;
+    font-size: 14px;
+    color: #202e3b;
+    line-height:normal;
+    font-weight: 500;
+    padding:0 29px 34px 29px;
+    
+}
+.portfolio-btn{
+    border: 10px solid #ffcd34;
+    background-color: #ffcd34;
+   
+   margin: 0 29px 0 ;
+    padding: 0 29px 0 0;
+    text-decoration: none;
+    color: #1d333f;
+    font-size: 15px;
+    font-weight: bold;
+   
+   }
+
+.portfolio-item2{
+    height: 500px;
+    background-image: url(../img/hause2.jpg);
+}
+.portfolio-item3{
+    height: 500px;
+    background-image: url(../img/hause3.jpg);
+}

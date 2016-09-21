@@ -1,0 +1,80 @@
+li {display: inline-block}  -делает из блока ,строчку 
+
+width: 100px;  padding: 10px;   border: 16px;   margin: 2px;
+ ширина              Поля             Границы         Отступы
+
+ border: 3px solid #674ea7;
+границы вокруг элемента
+
+.cat { padding-top: 20px; padding-left: 20px; }
+padding - внутренние отступы .
+
+.cat { margin-top: 20px;  margin-left: 10px;  }
+margin -  внешние отступы.
+
+min-width: 40% минимальная ширина
+max-width: 40% максимальная высота
+
+min-height: 40% минимальная высота
+max-height: 40% максимальная высота
+
+text-align  (left,right,center) Определяет горизонтальное выравнивание 
+текста в пределах элемента
+<div class="block">            
+    <p>Текст</p>                   
+    </div>  
+.block{
+    text-align: center;
+}
+                           
+
+ text-transform: uppercase - ВСЕ ТЕКСТ В ЗАГЛАВНОЙ БУКВЫ
+ margin-bottom: 10px - ОТСТУП ОТ НИЖНЕГО КРАЯ
+ font-size- РАЗМЕР ШРИФТА
+ background-color - ЦВЕТ ФОНА
+ line-height - Любое число больше нуля воспринимается как множитель от размера шрифта текущего текста
+ text-decoration: [ blink || line-through || overline || underline ] | none | inherit	- Добавляет оформление 
+текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания. Одновременно можно применить более 
+одного стиля, перечисляя значения через пробел.
+font-family: arial - СТИЛЬ ТЕКСТА
+list-style- Универсальное свойство, позволяющее одновременно задать стиль маркера, его положение, а также изображение,
+ которое будет использоваться в качестве маркера
+ background-size- РАЗМЕР ИЗОБРАЖЕНИЯ
+ background-image - ВСТАВИТЬ ИЗОБРАЖЕНИЕ 
+background-position: 0 0; (center left bottom top right)-ПОЗИЦИЯ ИЗОБРАЖЕНИЯ
+
+background-repeat. 
+Возможные значения:
+repeat (повтор по всем направлениям), 
+repeat-x (повтор по горизонтали), 
+repeat-y (повтор по вертикали), 
+no-repeat (не повторяется), 
+inherit(наследует значение у родителя).   ПОВТОР ИЗОБРАЖЕНИЯ
+float (left , right)- ОБТЕКАНИЕ КАРТИНКИ 
+clear: left,right,both - запрет обтикания конкретного элемента
+overflow: auto | hidden | scroll | visible | inherit - управляет отображением содержания блочного элемента, 
+если оно целиком не помещается и выходит за область заданных размеров.
+.clearfix-container:after, .clearfix-container:before { 
+content: ""; 
+display: table; 
+clear: both; 
+} /// ЗАМЕСТ  overflow:hidden/// УБИРАЕТ ОБРЕЗАНИЕ ВЕРХНЕЙ КАРТИНКИ
+
+text-align  выравнивает текс по (center right left )
+vertical-align-  Выравнивает элемент по вертикали относительно своего родителя, окружающего текста или ячейки таблицы.
+Синтаксис
+vertical-align: baseline|bottom|middle|sub|super|text-bottom|text-top|top|inherit | значение | проценты
+font-weight -  Устанавливает насыщенность шрифта. Значение устанавливается от 100 до 900 с шагом 100. 
+line-height:- межстрочный интервал.
+background-size - МАШТАБИРУЕТ ИЗОБРАЖЕНИЕ background-size: [ <значение> | <проценты> | auto ]{1,2} | cover | contain
+
+
+фотошоп 
+ctrl 1 -100%
+ctrl 0 - r к началу
+
+что бы правильно выполнить сетку : колон.в сетке расположены в одну строку да\нет - определяет какой элемент блочный\строчный -
+и смотрим в шпаргалку и записываем ширину и т.д.
+
+h1 и заголовкам не нужны inlain-block и float, они у них по определению 960 px им не нужна длинная и ertical-alain и margin/
+для таблицы нужно значение displai: table;
